@@ -3,7 +3,7 @@ USE ShopDB;
 
 -- Some data should be created outside the transaction (here)
 INSERT INTO Products (ID, Name, Description, Price, WarehouseAmount)
-VALUES (1, 'AwersomeProduct', 'A great product', 100, 50);
+VALUES (1, 'AwersomeProduct', 'A great product', 100, 42);
 
 INSERT INTO Customers (ID, FirstName, LastName, Email, Address)
 VALUES (1, 'John', 'Doe', 'john.doe@example.com', '123 Main St');
